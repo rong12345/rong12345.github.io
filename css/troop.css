@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	height: 143px;
+	background-color: #000;
+}
+.header_inner{
+	height: 143px;
+	width: 940px;
+	margin: 0 auto;
+}
+.logo{
+	width: 433px;
+	height: 143px;
+	float: left;
+}
+.logo img{
+	position: relative;
+	left: -29px;
+	padding-top: 25px;
+	float: left;
+}
+.logo h1{
+	color: #bfbfbf;
+	font-size: 58px;
+	padding-top: 42px;
+	float: left;
+}
+.logo h1 span{
+	color: #de5500;
+}
+.nav{
+	width: 507px;
+	height: 143px;
+	float: left;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li a{
+	float: left;
+	font-family: arial;
+	color: #7f7f7f;
+	text-decoration: none;
+	padding-top: 70px;
+	padding-left: 28px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nav ul li a:hover{
+	color: #c92000;
+}
+#banner{
+	height: 348px;
+	background-image: url(images/beijing1.jpg);
+}
+.banner_inner{
+	height: 348px;
+	width: 940px;
+	margin: 0 auto;
+}
+.banner_text{
+	width: 588px;
+	height: 348px;
+	float: left;
+}
+.banner_text h2{
+	font-family:Georgia, sans-serif;
+	color: #fff;
+	padding-top: 64px;
+	font-size: 28px;
+}
+.p1{
+	padding-top: 22px;
+	font-family: arial;
+	font-size: 14px;
+	color: #7f7f7f;
+	line-height: 24px;
+}
+.p1 a{
+	color: #c92000;
+}
+.more a{
+	width: 106px;
+	height: 41px;
+	display: block;
+	background-image: url(images/anniu_03.jpg);
+	font-size: 25px;
+	line-height: 41px;
+	text-align: center;
+	font-family: arial;
+	text-decoration: none;
+	border-radius: 4px;
+	color: #fff;
+	margin-top: 26px;
+}
+.banner_pic{
+	width: 352px;
+	height: 348px;
+	float: left;
+}
+.banner_pic img{
+	position: relative;
+	top: -29px;
+	right: -25px;
+}
+#main{
+	height: 896px;
+	background-image: url(images/beijing2.jpg);
+}
+.main_inner{
+	height: 896px;
+	width: 940px;
+	margin: 0 auto;
+}
+.main_up{
+	width: 940px;
+	height: 260px;
+}
+.m1{
+	width: 300px;
+	height: 260px;
+	float: left;
+}
+.m1 img{
+	padding-top: 40px;
+}
+.m2{
+	width: 640px;
+	height: 260px;
+	float: left;
+}
+.m2 img{
+	padding-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+.main_down{
+	height: 636px;
+	width: 940px;
+}
+.m_d_left{
+	width: 640px;
+	height: 636px;
+	float: left;
+}
+.m_l_t{
+	height: 314px;
+	width: 601px;
+}
+.t_header{
+	width: 601px;
+	height: 60px;
+}
+.t_header h2{
+	font-size: 28px;
+	color: #fff;
+	padding-top: 12px;
+}
+.t_footer{
+	width: 601px;
+	height: 255px;
+}
+.t_f_l{
+	width: 83px;
+	height: 255px;
+	float: left;
+}
+.t_f_r{
+	width: 518px;
+	height: 255px;
+	float: left;
+	margin-top: 7px;
+}
+.t_f_r p{
+	color: #7f7f7d;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.t_f_r p span{
+	color: white;
+}
+.m_l_f{
+	height: 322px;
+	width: 619px;
+	border-top: #3c3d3d 1px dashed;
+}
+.f_l{
+	width: 81px;
+	height: 322px;
+	float: left;
+}
+.f_l img{
+	padding-top: 30px;
+}
+.f_m{
+	width: 240px;
+	height: 322px;
+	float: left;
+}
+.f_m img{
+	padding-top: 30px;
+}
+.f_r{
+	width: 298px;
+	height: 322px;
+	float: left;
+}
+.f_r p{
+	color: #7f7f7d;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 25px;
+	padding-top: 38px;
+}
+.f_r p span{
+	color: white;
+}
+.m_d_right{
+	width: 300px;
+	height: 636px;
+	float: left;
+}
+.m_d_t{
+	width: 300px;
+	height: 48px;
+	background-color: #0e0f0f;
+	border-radius: 10px;
+}
+.m_d_t h2{
+	color: #fff;
+	font-size: 26px;
+	padding-left: 32px;
+	padding-top: 10px;
+}
+.m_d_c{
+	width: 300px;
+	height: 295px;
+}
+.m_d_c ul{
+	padding-top: 15px;
+	padding-left: 32px;
+	list-style: none;
+	list-style-image: url(images/sj_05.jpg);
+	list-style-position: inside;
+}
+.m_d_c ul li{
+	padding-top: 10px;
+	border-bottom: 1px dashed #3c3d3d;
+	padding-bottom: 8px;
+}
+.m_d_c ul li a{
+	font-family: arial;
+	font-style: italic;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.m_d_c ul .noborder{
+	border: 0;
+}
+.m_d_f{
+	width: 300px;
+	height: 232px;
+	background-color: #0f1010;
+	border-radius: 10px;
+}
+.m_d_f h1{
+	font-size: 20px;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.m_d_f img{
+	padding-left: 20px;
+	padding-bottom: 22px;
+}
+.m_d_f h2{
+	font-size: 14px;
+	color: #fff;
+	font-family: arial;
+	padding-left: 20px;
+	padding-bottom: 8px;
+}
+.m_d_f p{
+	padding-left: 20px;
+	line-height: 25px;
+	color: #777b7f;
+	font-size: 14px;
+	font-family: arial;
+}
+#footer{
+	height: 150px;
+	background-image: url(images/beijing3.jpg);
+}
+.footer_inner{
+	height: 150px;
+	width: 940px;
+	margin: 0 auto;
+}
+.footer_left{
+	width: 723px;
+	height: 150px;
+	float: left;
+}
+.footer_left h4{
+	font-family: arial;
+	font-size: 14px;
+	color: #7f7d69;
+	padding-top: 38px;
+	padding-bottom: 12px;
+	padding-left: 240px;
+}
+.footer_left h5{
+	font-family: arial;
+	font-size: 14px;
+	color: #7f7d69;
+	padding-left: 174px;
+}
+.footer_left h5 a{
+	color: #cc2805;
+}
+.footer_right{
+	width: 217px;
+	height: 150px;
+	float: left;
+}
+.footer_right img{
+	padding-top: 49px;
+	padding-right: 10px;
+}
